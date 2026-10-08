@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Adhitya | Software Engineer & Computer Science Graduate</title>
+  <meta name="description" content="Official portfolio and executive profile of Kevin Adhitya, Computer Science graduate from Binus University (2024) with industry engineering experience at PT Darodata Teknologi, PT Lion Air Mentari, and PT Sysnetsoft.">
+  <meta name="keywords" content="Kevin Adhitya, Software Engineer, Binus University, Computer Science 2024, PT Darodata Teknologi, PT Lion Air Mentari, PT Sysnetsoft, Full Stack Developer">
+  <meta name="author" content="Kevin Adhitya">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Kevin Adhitya | Executive Profile & Engineering Portfolio">
+  <meta property="og:description" content="Computer Science graduate from Binus University (Class of 2024) with enterprise experience in data platforms, aviation systems, and custom software.">
+  <meta property="og:type" content="website">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Apple-Style Global Navigation Bar
+       ======================================================================== -->
+  <div class="apple-nav-wrapper">
+    <nav class="apple-nav" aria-label="Global Navigation">
+      <div class="nav-container">
+        <!-- Brand / Monogram Avatar -->
+        <a href="#hero" class="nav-brand" aria-label="Kevin Adhitya Homepage">
+          <img src="assets/images/kevin-casual.jpg" alt="Kevin Adhitya" class="nav-brand-avatar">
+          <span>Kevin Adhitya</span>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#overview" class="nav-link">Overview</a>
+          </li>
+          <li class="nav-item" data-tray-target="trayExperience">
+            <a href="#experience" class="nav-link">
+              <span>Experience</span>
+              <svg class="nav-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M2 3.5L5 6.5L8 3.5"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#organization" class="nav-link">Organization</a>
+          </li>
+          <li class="nav-item" data-tray-target="trayEducation">
+            <a href="#education" class="nav-link">
+              <span>Education</span>
+              <svg class="nav-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M2 3.5L5 6.5L8 3.5"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item" data-tray-target="trayPortfolio">
+            <a href="#portfolio" class="nav-link">
+              <span>Portfolio</span>
+              <svg class="nav-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M2 3.5L5 6.5L8 3.5"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item" data-tray-target="trayCapabilities">
+            <a href="#capabilities" class="nav-link">
+              <span>Capabilities</span>
+              <svg class="nav-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M2 3.5L5 6.5L8 3.5"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Action Controls -->
+        <div class="nav-actions">
+          <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle Black & White theme mode">
+            <!-- Sun Icon (for dark mode) -->
+            <svg id="sunIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon (for light mode) -->
+            <svg id="moonIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <a href="#contact" class="nav-cta-btn">Connect</a>
+
+          <button id="mobileMenuToggle" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======================================================================
+         Apple-Style Mega Dropdown Tray (Expands on Hover)
+         ====================================================================== -->
+    <div id="appleDropdownTray" class="apple-dropdown-tray">
+      <div class="tray-content-wrapper">
+
+        <!-- Panel 1: Experience -->
+        <div id="trayExperience" class="tray-panel">
+          <div>
+            <div class="tray-column-heading">Career Journey</div>
+            <a href="#experience" class="tray-main-link">Explore All Experience</a>
+            <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
+              Engineering roles across high-scale data systems, aviation software, and enterprise solutions.
+            </p>
+          </div>
+          <div>
+            <div class="tray-column-heading">Enterprise Organizations</div>
+            <ul class="tray-links-list">
+              <li>
+                <a href="#exp-darodata" class="tray-sub-link">
+                  <div class="tray-sub-title">PT Darodata Teknologi</div>
+                  <div class="tray-sub-desc">Software Engineer Intern • Data Systems</div>
+                </a>
+              </li>
+              <li>
+                <a href="#exp-lionair" class="tray-sub-link">
+                  <div class="tray-sub-title">PT Lion Air Mentari</div>
+                  <div class="tray-sub-desc">IT Systems Intern • Fleet & Operations</div>
+                </a>
+              </li>
+              <li>
+                <a href="#exp-sysnetsoft" class="tray-sub-link">
+                  <div class="tray-sub-title">PT Sysnetsoft</div>
+                  <div class="tray-sub-desc">Software Development Intern • Enterprise Apps</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="tray-column-heading">Track Record</div>
+            <div class="tray-featured-card">
+              <div>
+                <span class="tray-card-badge">Industry Impact</span>
+                <div class="tray-card-title">Cross-Industry Agility</div>
+                <div class="tray-card-desc">From mission-critical aviation operations to big data pipelines and scalable client architectures.</div>
+              </div>
+              <a href="#experience" class="tray-card-action">
+                <span>View Full Timeline</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Education -->
+        <div id="trayEducation" class="tray-panel">
+          <div>
+            <div class="tray-column-heading">Alma Mater</div>
+            <a href="#education" class="tray-main-link">Binus University</a>
+            <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
+              Graduated Class of 2024 with a Bachelor of Computer Science (Sarjana Komputer).
+            </p>
+          </div>
+          <div>
+            <div class="tray-column-heading">Academic Pillars</div>
+            <ul class="tray-links-list">
+              <li>
+                <a href="#education" class="tray-sub-link">
+                  <div class="tray-sub-title">Computer Science Degree</div>
+                  <div class="tray-sub-desc">Algorithms, Data Structures & System Architecture</div>
+                </a>
+              </li>
+              <li>
+                <a href="#education" class="tray-sub-link">
+                  <div class="tray-sub-title">Binus 3+1 Program</div>
+                  <div class="tray-sub-desc">Industry Immersion & Hands-on Enterprise Projects</div>
+                </a>
+              </li>
+              <li>
+                <a href="#education" class="tray-sub-link">
+                  <div class="tray-sub-title">Capstone Research</div>
+                  <div class="tray-sub-desc">Software Engineering & Distributed Systems Design</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="tray-column-heading">Academic Profile</div>
+            <div class="tray-featured-card">
+              <div>
+                <span class="tray-card-badge">Binusian 2024</span>
+                <div class="tray-card-title">Computer Science Excellence</div>
+                <div class="tray-card-desc">Solid theoretical foundation complemented by practical real-world engineering standards.</div>
+              </div>
+              <a href="#education" class="tray-card-action">
+                <span>Read Education Story</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Portfolio -->
+        <div id="trayPortfolio" class="tray-panel">
+          <div>
+            <div class="tray-column-heading">Selected Works</div>
+            <a href="#portfolio" class="tray-main-link">Featured Engineering</a>
+            <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
+              End-to-end architectures, high-performance web applications, and enterprise tooling.
+            </p>
+          </div>
+          <div>
+            <div class="tray-column-heading">Categories</div>
+            <ul class="tray-links-list">
+              <li>
+                <a href="#portfolio" class="tray-sub-link">
+                  <div class="tray-sub-title">Enterprise Systems</div>
+                  <div class="tray-sub-desc">Aviation flight dispatch, ERP tooling & dashboards</div>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="tray-sub-link">
+                  <div class="tray-sub-title">Data & Cloud Platforms</div>
+                  <div class="tray-sub-desc">High-throughput ingestion pipelines & APIs</div>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="tray-sub-link">
+                  <div class="tray-sub-title">Web Applications</div>
+                  <div class="tray-sub-desc">Interactive, responsive user interfaces</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="tray-column-heading">Innovation Lab</div>
+            <div class="tray-featured-card">
+              <div>
+                <span class="tray-card-badge">Interactive Demos</span>
+                <div class="tray-card-title">Engineered For Scale</div>
+                <div class="tray-card-desc">Click on any project card to inspect architecture specifications, code concepts, and tech stacks.</div>
+              </div>
+              <a href="#portfolio" class="tray-card-action">
+                <span>Browse Projects</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 4: Capabilities -->
+        <div id="trayCapabilities" class="tray-panel">
+          <div>
+            <div class="tray-column-heading">Technical Arsenal</div>
+            <a href="#capabilities" class="tray-main-link">Engineering Stack</a>
+            <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
+              Modern programming languages, backend frameworks, relational databases, and devops tooling.
+            </p>
+          </div>
+          <div>
+            <div class="tray-column-heading">Core Domains</div>
+            <ul class="tray-links-list">
+              <li>
+                <a href="#capabilities" class="tray-sub-link">
+                  <div class="tray-sub-title">Full-Stack Development</div>
+                  <div class="tray-sub-desc">TypeScript, React, Node.js, PHP, Laravel</div>
+                </a>
+              </li>
+              <li>
+                <a href="#capabilities" class="tray-sub-link">
+                  <div class="tray-sub-title">Data & Systems</div>
+                  <div class="tray-sub-desc">Python, PostgreSQL, MySQL, REST & GraphQL</div>
+                </a>
+              </li>
+              <li>
+                <a href="#capabilities" class="tray-sub-link">
+                  <div class="tray-sub-title">DevOps & Tooling</div>
+                  <div class="tray-sub-desc">Docker, Git, CI/CD, Linux Systems</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="tray-column-heading">Standards</div>
+            <div class="tray-featured-card">
+              <div>
+                <span class="tray-card-badge">Best Practices</span>
+                <div class="tray-card-title">Clean Architecture</div>
+                <div class="tray-card-desc">Emphasis on maintainability, modularity, readable code, and responsive interface design.</div>
+              </div>
+              <a href="#capabilities" class="tray-card-action">
+                <span>View Bento Grid</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Apple Backdrop Dimmer -->
+  <div id="navBackdrop" class="nav-backdrop"></div>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileNavDrawer" class="mobile-nav-drawer">
+    <a href="#overview" class="mobile-nav-link">Overview</a>
+    <a href="#experience" class="mobile-nav-link">Experience</a>
+    <a href="#organization" class="mobile-nav-link">Organization</a>
+    <a href="#education" class="mobile-nav-link">Education</a>
+    <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+    <a href="#capabilities" class="mobile-nav-link">Capabilities</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <!-- ========================================================================
+       Hero Section (Apple Keynote Product Showcase Style)
+       ======================================================================== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-glow-bg"></div>
+    <div class="container hero-content">
+
+      <!-- Eyebrow Badge -->
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        <span>Binus University Computer Science</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="hero-headline">
+        <span class="hero-headline-gradient">Kevin Adhitya</span><br>
+        Portfolio.
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="hero-subhead">
+        A <strong>Computer Science Graduate from Binus University</strong> with hands-on experience as an <strong>IT Support Intern</strong> and <strong>Web Developer & UI/UX Designer using Figma</strong>. Passionate about translating complex user workflows into seamless digital interfaces and dependable system operations.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero-cta-group">
+        <a href="#experience" class="btn-apple-primary">
+          <span>Explore Career Journey</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn-apple-secondary">
+          <span>Get in Touch</span>
+        </a>
+        <button id="openPhotoModalBtn" class="photo-uploader-trigger" style="margin-left:auto;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          <span>Update / Preview Your Photos</span>
+        </button>
+      </div>
+
+      <!-- ====================================================================
+           Dual Profile Studio Showcase & Quick Facts Grid
+           ==================================================================== -->
+      <div class="hero-showcase-grid">
+        
+        <!-- Left Showcase Card: Interactive Portrait Display -->
+        <div class="profile-card-container">
+          <div class="profile-card-header">
+            <!-- Mode Switcher: Casual vs Formal (Default Casual) -->
+            <div class="profile-mode-toggles">
+              <button id="btnPhotoCasual" class="profile-mode-btn active" title="Switch to Casual / Engineering Portrait">
+                Creative (Casual)
+              </button>
+              <button id="btnPhotoFormal" class="profile-mode-btn" title="Switch to Formal Executive Portrait">
+                Executive (Formal)
+              </button>
+            </div>
+            
+            <span style="font-size:0.75rem; color:var(--text-muted);">
+              Preview Studio
+            </span>
+          </div>
+
+          <!-- Image Viewport -->
+          <div class="profile-image-viewport">
+            <img id="profileHeroImg" class="profile-img" src="assets/images/kevin-casual.jpg" alt="Kevin Adhitya - Profile">
+
+            <!-- Card Bottom Floating Badge -->
+            <div class="profile-badge-overlay">
+              <div>
+                <div id="profileBadgeName" class="overlay-info-name">Kevin Adhitya, S.Kom</div>
+                <div id="profileBadgeRole" class="overlay-info-sub">UI/UX Designer & IT Support • Binus CS</div>
+              </div>
+              <div class="overlay-status-pill">
+                <span class="status-indicator-dot"></span>
+                <span>Open for Opportunities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Quick Facts Bento Column -->
+        <div class="hero-quick-facts">
+          <!-- Card 1: Binus University -->
+          <div class="fact-bento-card">
+            <div class="fact-card-eyebrow">Academic Foundation</div>
+            <div class="fact-card-value">Binus University</div>
+            <div class="fact-card-detail">
+              Bachelor of Computer Science (Sarjana Komputer - Class of 2024). Rigorous foundation in data structures, algorithms, and distributed systems.
+            </div>
+          </div>
+
+          <!-- Card 2: Enterprise Internships -->
+          <div class="fact-bento-card">
+            <div class="fact-card-eyebrow">Professional Experience</div>
+            <div class="fact-card-value">3 Key Internships</div>
+            <div class="fact-card-detail">
+              Proven engineering contributions at <strong>PT Darodata Teknologi</strong> (Data tech), <strong>PT Lion Air Mentari</strong> (Aviation operations), and <strong>PT Sysnetsoft</strong> (Enterprise solutions).
+            </div>
+          </div>
+
+          <!-- Card 3: Design & Tech Philosophy -->
+          <div class="fact-bento-card">
+            <div class="fact-card-eyebrow">Core Specialization</div>
+            <div class="fact-card-value">Full-Stack & Systems</div>
+            <div class="fact-card-detail">
+              End-to-end software architecture with high aesthetic craftsmanship, clean code practices, and scalable backend services.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Apple Tech Specs Row -->
+      <div class="hero-specs-strip">
+        <div class="spec-item">
+          <span class="spec-label">Education</span>
+          <span class="spec-title">Binus University</span>
+          <span class="spec-desc">Computer Science • Class of 2024</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Industry Roles</span>
+          <span class="spec-title">3 Internships</span>
+          <span class="spec-desc">Darodata • Lion Air • Sysnetsoft</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Discipline</span>
+          <span class="spec-title">Web Development</span>
+          <span class="spec-desc">AI Implementation & Full-Stack</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Location & Status</span>
+          <span class="spec-title">Jakarta, Indonesia</span>
+          <span class="spec-desc">Available for Full-time Roles</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Company Profile Overview ("About Kevin Adhitya")
+       ======================================================================== -->
+  <section id="overview" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Executive Summary</span>
+        <h2 class="section-title">The Engineering Perspective.</h2>
+        <p class="section-subtitle">
+          Bridging intelligent AI implementation, human-centered UI/UX design, and dependable IT infrastructure.
+        </p>
+      </div>
+
+      <div class="overview-grid">
+        <div class="overview-editorial-card">
+          <div>
+            <div class="overview-editorial-lead">
+              "Empowering human experiences by integrating intelligent AI implementations with seamless UI/UX design and rock-solid IT infrastructure."
+            </div>
+            <p class="overview-editorial-body">
+              Computer Science graduate from Bina Nusantara (Binus) University with a multidisciplinary foundation bridging <strong>UI/UX Design with Figma</strong>, modern web development, intelligent <strong>AI implementation</strong>, and reliable IT systems engineering.
+            </p>
+            <p class="overview-editorial-body">
+              Backed by enterprise-level industry immersion: spearheading intuitive web UI/UX and AWS cloud upload pipelines as a <strong>Web Developer Intern at PT Sysnetsoft</strong>; ensuring high system uptime, network diagnostics, and core platform maintenance for <code>ibank.co.id</code> as an <strong>IT Support Intern at PT Darodata Teknologi</strong>; and architecting the <em>APB</em> mobile app UI prototype alongside precision data cleaning as a <strong>Data Analyst & UI Designer Intern at PT Lion Air Mentari</strong>.
+            </p>
+          </div>
+          <div style="display:flex; align-items:center; gap:16px;">
+            <a href="#experience" class="btn-apple-primary" style="padding:10px 22px; font-size:0.85rem;">
+              <span>Review Work History</span>
+            </a>
+            <a href="#contact" class="btn-apple-secondary" style="padding:10px 22px; font-size:0.85rem;">
+              <span>Schedule an Interview</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="overview-editorial-card" style="background:var(--bg-tertiary);">
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:12px;">
+              Profile Fast Facts
+            </div>
+            <div style="display:flex; flex-direction:column; gap:18px;">
+              <div style="border-bottom:1px solid var(--border-subtle); padding-bottom:12px;">
+                <div style="font-size:0.8rem; color:var(--text-muted);">Full Name</div>
+                <div style="font-size:1.1rem; font-weight:700; color:var(--text-primary);">Kevin Adhitya, S.Kom</div>
+              </div>
+              <div style="border-bottom:1px solid var(--border-subtle); padding-bottom:12px;">
+                <div style="font-size:0.8rem; color:var(--text-muted);">Undergraduate Degree</div>
+                <div style="font-size:1.1rem; font-weight:700; color:var(--text-primary);">Bachelor of Computer Science (Binus University)</div>
+              </div>
+              <div style="border-bottom:1px solid var(--border-subtle); padding-bottom:12px;">
+                <div style="font-size:0.8rem; color:var(--text-muted);">Core Expertise</div>
+                <div style="font-size:1.1rem; font-weight:700; color:var(--text-primary);">UI/UX Design (Figma), Web Development, IT Support</div>
+              </div>
+              <div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Key Tools & Technologies</div>
+                <div style="font-size:1.1rem; font-weight:700; color:var(--text-primary);">Figma, HTML/CSS/JS, AWS, MySQL, Network & Hardware IT</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Three Pillars Bento -->
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-4 4 4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"/><path d="M18 10a6 6 0 0 1 4 6v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a6 6 0 0 1 4-6"/><circle cx="12" cy="14" r="2"/></svg>
+          </div>
+          <div class="pillar-title">AI Implementation & Structural Coding</div>
+          <p class="pillar-desc">
+            Transforming complex algorithmic intelligence into real-world software. Harnessing neural models, automated prompt workflows, and structured computational logic to engineer self-evolving, intelligent systems built for high-impact automation.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+          </div>
+          <div class="pillar-title">Modern Web Development with PHP & Laravel</div>
+          <p class="pillar-desc">
+            Architecting robust, enterprise-grade web applications through the power of PHP and Laravel. Leveraging elegant MVC patterns, Eloquent ORM relationships, secure RESTful APIs, and lightning-fast database transactions crafted for unwavering reliability.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="pillar-title">Blockchain & Decentralized Architecture</div>
+          <p class="pillar-desc">
+            Exploring immutable data paradigms, cryptographic security, and decentralized ledger principles. Committed to pioneering tamper-proof trust networks and next-generation decentralized ecosystems that redefine data ownership and digital integrity.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Experience & Internships Section
+       ======================================================================== -->
+  <section id="experience" class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Professional Track Record</span>
+        <h2 class="section-title">Enterprise Internships.</h2>
+        <p class="section-subtitle">
+          Real-world engineering impact across data engineering, aviation tech systems, and bespoke business platforms.
+        </p>
+      </div>
+
+      <div class="experience-cards-stack">
+
+        <!-- Experience 1: PT Sysnetsoft -->
+        <div id="exp-sysnetsoft" class="experience-card">
+          <div class="exp-company-col">
+            <div>
+              <div class="exp-company-logo-badge logo-sysnetsoft">
+                <img src="assets/images/Sysnetsoft-only.png" alt="PT Sysnetsoft" class="exp-company-img">
+              </div>
+              <h3 class="exp-company-name">PT Sysnetsoft</h3>
+              <div class="exp-company-domain">Jakarta • Web Development & UI/UX</div>
+            </div>
+            <div>
+              <span class="exp-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>June '25 – Sept '25</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="exp-details-col">
+            <h4 class="exp-role-title">Web Developer Intern — UI/UX & Cloud Integration</h4>
+            <p class="exp-summary-text">
+              Engineered intuitive web interfaces while developing automated cloud storage integrations to elevate staff operational efficiency for institutional clients.
+            </p>
+
+            <ul class="exp-highlights-list">
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>UI/UX Design with Figma:</strong> Architected user-centric interface mockups and interactive user flows tailored to the specific needs of school administration clients.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>AWS Cloud Integration:</strong> Implemented direct web-to-cloud upload pipelines on Amazon Web Services (AWS), significantly cutting administrative workload and streamlining digital asset management.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Collaborated with engineering teammates to ensure seamless parity between Figma design tokens and production-ready frontend code.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tech-tags" style="margin-top:20px; padding-top:16px; border-top:1px solid var(--border-subtle);">
+              <span class="tech-tag">UI/UX Design</span>
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Amazon Web Services (AWS)</span>
+              <span class="tech-tag">Web Development</span>
+              <span class="tech-tag">JavaScript / HTML / CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: PT Darodata Teknologi -->
+        <div id="exp-darodata" class="experience-card">
+          <div class="exp-company-col">
+            <div>
+              <div class="exp-company-logo-badge logo-darodata">
+                <img src="assets/images/Darodata-Logo-New.png" alt="PT Darodata Teknologi" class="exp-company-img">
+              </div>
+              <h3 class="exp-company-name">PT Darodata Teknologi</h3>
+              <div class="exp-company-domain">Bogor • IT Support & Web Management</div>
+            </div>
+            <div>
+              <span class="exp-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Feb '23 – Feb '24</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="exp-details-col">
+            <h4 class="exp-role-title">IT Support Intern — Web Maintenance & System Reliability</h4>
+            <p class="exp-summary-text">
+              Ensured continuous uptime for institutional web platforms while providing comprehensive technical support across hardware, software, and enterprise network infrastructure.
+            </p>
+
+            <ul class="exp-highlights-list">
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Web Management:</strong> Managed and enhanced <code>ibank.co.id</code>, optimizing page responsiveness, server reliability, and end-user feature workflows.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Network Diagnostics & Technical Support:</strong> Delivered direct support to resolve network connectivity issues, workstation software glitches, and routine systems maintenance across office workstations.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Maintained hardware health, configured peripherals, and enforced workstation security hygiene for on-site staff.</span>
+              </li>
+            </ul>
+
+            <div class="exp-footer-action-row" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-top:20px; padding-top:16px; border-top:1px solid var(--border-subtle);">
+              <div class="exp-tech-tags" style="margin-top:0;">
+                <span class="tech-tag">IT Support & Troubleshooting</span>
+                <span class="tech-tag">Website Management (ibank.co.id)</span>
+                <span class="tech-tag">Network Diagnostics</span>
+                <span class="tech-tag">Hardware & Software Maintenance</span>
+              </div>
+              <button type="button" class="btn-cert-preview" data-cert-src="assets/images/Surat_Magang_Darodata.jpg" data-cert-title="PT Darodata Teknologi Internship Certificate" data-cert-sub="Official Verification Document" style="display:inline-flex; align-items:center; gap:6px; background:var(--badge-bg); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:var(--radius-full); padding:7px 16px; font-size:0.8rem; font-weight:600; cursor:pointer; transition:all var(--transition-fast);">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                <span>View Certificate</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: PT Lion Air Mentari -->
+        <div id="exp-lionair" class="experience-card">
+          <div class="exp-company-col">
+            <div>
+              <div class="exp-company-logo-badge logo-lionair">
+                <img src="assets/images/Lion_Air-Logo.wine.png" alt="PT Lion Air Mentari" class="exp-company-img">
+              </div>
+              <h3 class="exp-company-name">PT Lion Air Mentari</h3>
+              <div class="exp-company-domain">Bogor • Aviation Data & Mobile UI Design</div>
+            </div>
+            <div>
+              <span class="exp-period-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Feb '23 – May '24</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="exp-details-col">
+            <h4 class="exp-role-title">Data Analyst & UI Designer Intern — APB Mobile Application</h4>
+            <p class="exp-summary-text">
+              Spearheaded UI design for critical ground flight operations and performed structured data cleaning to ensure reliable insights across commercial airline dispatch.
+            </p>
+
+            <ul class="exp-highlights-list">
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Mobile UI Design with Figma:</strong> Designed the complete UI prototype for the company's <em>APB (Actual Passenger on Board)</em> mobile application, optimizing usability for ground crew personnel under fast-paced flight schedules.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Data Cleaning & Transformation:</strong> Cleaned, normalized, and validated flight and passenger datasets using Microsoft Excel and MySQL to guarantee accurate operational reporting.</span>
+              </li>
+              <li class="exp-highlight-item">
+                <svg class="exp-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Bridged data insights with intuitive mobile design patterns to improve day-to-day workflow efficiency for flight ground operations.</span>
+              </li>
+            </ul>
+
+            <!-- Tech Tags -->
+            <div class="exp-tech-tags" style="margin-top:20px; padding-top:16px; border-top:1px solid var(--border-subtle);">
+              <span class="tech-tag">UI/UX (Figma)</span>
+              <span class="tech-tag">Mobile App Design</span>
+              <span class="tech-tag">Data Cleaning</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Microsoft Excel</span>
+            </div>
+
+            <!-- View Certificate Button: Dedicated Row Below Tags -->
+            <div style="margin-top:14px; display:flex; align-items:center;">
+              <button type="button" class="btn-cert-preview" data-cert-src="assets/images/Certificate_Lion_Air_Intern.jpg" data-cert-title="PT Lion Air Mentari Internship Certificate" data-cert-sub="Official Employment Reference • Data Analyst Intern" style="display:inline-flex; align-items:center; gap:8px; background:var(--badge-bg); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:var(--radius-full); padding:8px 18px; font-size:0.8125rem; font-weight:600; cursor:pointer; transition:all var(--transition-fast);">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                <span>View Certificate</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Organizational Experience Section
+       ======================================================================== -->
+  <section id="organization" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Leadership & Community Engagement</span>
+        <h2 class="section-title">Organizational Experience.</h2>
+        <p class="section-subtitle">
+          Demonstrated leadership, creative digital innovation, and active team contributions across student development and tech communities.
+        </p>
+      </div>
+
+      <div class="org-cards-grid">
+
+        <!-- Org 1: BUBU Snapchat Inc. -->
+        <div class="org-card">
+          <div class="org-card-top">
+            <div class="org-icon-badge logo-snapchat">
+              <img src="assets/images/Snapchat-Logo.png" alt="Snapchat" class="org-logo-img">
+            </div>
+            <div class="org-meta">
+              <span class="org-period-pill">June '21 – Sept '22</span>
+              <span class="org-location-pill">Jakarta</span>
+            </div>
+          </div>
+
+          <div class="org-role-title">Campus Ambassador & Lens Creator</div>
+          <div class="org-company-name">BUBU Snapchat Inc.</div>
+          <p class="org-card-description">
+            Represented the university as an official Snapchat Ambassador, spearheading creative digital engagement and Augmented Reality (AR) innovation across the campus community.
+          </p>
+
+          <ul class="org-bullet-points">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>AR Lens Development:</strong> Conceptualized and published monthly interactive AR lenses aligned with current campus trends and student culture.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Data & Trend Insights:</strong> Aggregated audience engagement metrics and behavioral insights for recurring monthly evaluation reports.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Strategic Partnerships:</strong> Initiated partnerships with campus organizations and student clubs to drive creative digital adoption.</span>
+            </li>
+          </ul>
+
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px;">
+            <a href="assets/images/Certificate_Snapchat_Bubu.jpg" download="CERTIFICATE_kevin_Snapchat_BUBU.jpg" target="_blank" rel="noopener" class="btn-cert-download" style="display:inline-flex; align-items:center; gap:8px; background:var(--text-primary); color:var(--text-contrast); border-radius:var(--radius-full); padding:8px 16px; font-size:0.8rem; font-weight:600; text-decoration:none; transition:all var(--transition-fast);">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Certificate</span>
+            </a>
+            <button type="button" class="btn-cert-preview" data-cert-src="assets/images/Certificate_Snapchat_Bubu.jpg" data-cert-title="Certificate of Appreciation — BUBU Snapchat Inc." data-cert-sub="Campus Icon & AR Lens Creator" style="display:inline-flex; align-items:center; gap:6px; background:var(--badge-bg); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:var(--radius-full); padding:7px 14px; font-size:0.775rem; font-weight:600; cursor:pointer; transition:all var(--transition-fast);">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              <span>Preview</span>
+            </button>
+          </div>
+
+          <div class="org-tags-row">
+            <span class="tech-tag">Augmented Reality (AR)</span>
+            <span class="tech-tag">Lens Studio</span>
+            <span class="tech-tag">Campus Ambassador</span>
+            <span class="tech-tag">Creative Strategy</span>
+          </div>
+        </div>
+
+        <!-- Org 2: HIMTI Binus -->
+        <div class="org-card">
+          <div class="org-card-top">
+            <div class="org-icon-badge logo-himti">
+              <img src="assets/images/Himti-Binus-Logo.png" alt="HIMTI Binus" class="org-logo-img">
+            </div>
+            <div class="org-meta">
+              <span class="org-period-pill">July '22 – July '23</span>
+              <span class="org-location-pill">Tangerang</span>
+            </div>
+          </div>
+
+          <div class="org-role-title">Active Member</div>
+          <div class="org-company-name">HIMTI Binus (Computer Science Student Association)</div>
+          <p class="org-card-description">
+            The official student association for Computer Science at Binus University, fostering technical excellence, peer collaboration, and academic growth.
+          </p>
+
+          <ul class="org-bullet-points">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Skill Development:</strong> Actively contributed to elevating technical proficiency and collaborative soft skills among fellow Computer Science students.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Program Execution:</strong> Supported major department initiatives including tech seminars, hands-on workshops, and programming competitions.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Community Engagement:</strong> Facilitated knowledge-sharing forums that bridged academic coursework with real-world tech industry trends.</span>
+            </li>
+          </ul>
+
+          <div class="org-tags-row">
+            <span class="tech-tag">Student Association</span>
+            <span class="tech-tag">Tech Workshops</span>
+            <span class="tech-tag">Community Building</span>
+            <span class="tech-tag">Teamwork</span>
+          </div>
+        </div>
+
+        <!-- Org 3: Binus English Club (BNEC) -->
+        <div class="org-card">
+          <div class="org-card-top">
+            <div class="org-icon-badge logo-bnec">
+              <img src="assets/images/Bnec-Logo.png" alt="Binus English Club (BNEC)" class="org-logo-img">
+            </div>
+            <div class="org-meta">
+              <span class="org-period-pill">March '20 – March '21</span>
+              <span class="org-location-pill">Tangerang</span>
+            </div>
+          </div>
+
+          <div class="org-role-title">Active Member</div>
+          <div class="org-company-name">Binus English Club (BNEC)</div>
+          <p class="org-card-description">
+            Nationally recognized collegiate English organization developing persuasive communication, public speaking, leadership, and structured debate.
+          </p>
+
+          <ul class="org-bullet-points">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Intensive Training:</strong> Actively engaged in rigorous communication training focused on parliamentary debate, public speaking, and persuasive writing.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Competitions:</strong> Represented the organization in debate and speech competitions across both internal and external collegiate circuits.</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Event Collaboration:</strong> Partnered with cross-functional committees to organize English development workshops and youth leadership seminars.</span>
+            </li>
+          </ul>
+
+          <div class="org-tags-row">
+            <span class="tech-tag">Public Speaking</span>
+            <span class="tech-tag">Debate & Speech</span>
+            <span class="tech-tag">English Proficiency</span>
+            <span class="tech-tag">Leadership</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Education Section (Binus University Feature)
+       ======================================================================== -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Milestone</span>
+        <h2 class="section-title">Computer Science at Binus.</h2>
+        <p class="section-subtitle">
+          Bina Nusantara University, recognized as Indonesia's premier technology university. Class of 2024.
+        </p>
+      </div>
+
+      <div class="education-hero-card">
+        <div>
+          <div class="edu-badge-row">
+            <span class="edu-tag">Class of 2024</span>
+            <span class="edu-tag">Bachelor's Degree</span>
+          </div>
+
+          <h3 class="edu-title">Binus University</h3>
+          <div class="edu-degree">Bachelor of Computer Science (Sarjana Komputer — S.Kom)</div>
+
+          <p class="edu-description">
+            Completed a comprehensive curriculum centered on algorithmic problem solving, software engineering lifecycle, distributed systems, and computer networks. Graduated in 2024 with a balanced foundation of theoretical mastery and practical development capability.
+          </p>
+
+          <div class="edu-highlights-grid">
+            <div class="edu-stat-box">
+              <div class="edu-stat-label">Core Focus</div>
+              <div class="edu-stat-value">AI implementation and UI design</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-label">Program Track</div>
+              <div class="edu-stat-value">Binus University computer science</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-label">Foundational Rigor</div>
+              <div class="edu-stat-value">AI Engineering and data structures</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-label">Graduation Year</div>
+              <div class="edu-stat-value">2024</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Emblem Card with Uploaded Binus Photo -->
+        <div class="edu-visual-container">
+          <div class="binus-photo-emblem-wrap">
+            <img src="assets/images/kevin-binus.png" alt="Kevin Adhitya - Binus University" class="binus-photo-emblem">
+          </div>
+          <h4 class="edu-alumni-title">Proud Binusian</h4>
+          <div class="edu-alumni-year">Class of 2024 • Computer Science</div>
+          <div style="font-size:0.8125rem; color:var(--text-secondary); margin-bottom:20px; line-height:1.4;">
+            "Fostering and empowering society in building and serving the nation through world-class tech education."
+          </div>
+          <div class="edu-verify-pill">
+            Verified Academic Credential
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Featured Works & Portfolio Showcase
+       ======================================================================== -->
+  <section id="portfolio" class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Curated Engineering</span>
+        <h2 class="section-title">Selected Projects.</h2>
+        <p class="section-subtitle">
+          Showcasing solutions built with clean architecture, modern frontend frameworks, and robust backends.
+        </p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="portfolio-filter-row">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="enterprise">Enterprise Systems</button>
+        <button class="filter-btn" data-filter="design">UI/UX Design</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-category="enterprise">
+          <div class="project-mockup-frame">
+            <div class="mockup-inner-window">
+              <div class="window-controls-dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="mockup-code-lines">
+                <div class="mockup-line" style="width:60%;"></div>
+                <div class="mockup-line" style="width:85%;"></div>
+                <div class="mockup-line" style="width:40%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content-body">
+            <div class="project-tagline">Aviation & Operations System</div>
+            <h3 class="project-title">AeroOps Fleet Dispatch Engine</h3>
+            <p class="project-desc">
+              A flight operations and crew scheduling platform inspired by commercial airline dispatch challenges. Features real-time status trackers, delay prediction alerts, and crew assignment matrix.
+            </p>
+            <div class="project-footer-row">
+              <div class="exp-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <span class="project-action-link">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 (UI/UX Design) -->
+        <div class="project-card" data-category="design">
+          <div class="project-mockup-frame">
+            <div class="mockup-inner-window">
+              <div class="window-controls-dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="mockup-code-lines">
+                <div class="mockup-line" style="width:75%;"></div>
+                <div class="mockup-line" style="width:45%;"></div>
+                <div class="mockup-line" style="width:90%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content-body">
+            <div class="project-tagline">UI/UX Design & Prototyping</div>
+            <h3 class="project-title">APB Mobile App Design System</h3>
+            <p class="project-desc">
+              High-fidelity mobile UI prototype designed with Figma for commercial passenger-on-board workflows. Crafted with streamlined user paths, high contrast for field mobility, and unified design components.
+            </p>
+            <div class="project-footer-row">
+              <div class="exp-tech-tags">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">Design System</span>
+                <span class="tech-tag">Mobile UI</span>
+                <span class="tech-tag">User Flow</span>
+              </div>
+              <span class="project-action-link">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="enterprise">
+          <div class="project-mockup-frame">
+            <div class="mockup-inner-window">
+              <div class="window-controls-dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="mockup-code-lines">
+                <div class="mockup-line" style="width:50%;"></div>
+                <div class="mockup-line" style="width:80%;"></div>
+                <div class="mockup-line" style="width:65%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content-body">
+            <div class="project-tagline">Enterprise ERP & Workflow</div>
+            <h3 class="project-title">SysPulse Business Portal</h3>
+            <p class="project-desc">
+              Multi-tenant enterprise suite incorporating inventory tracking, automated billing, role-based access control (RBAC), and audited reporting dashboards.
+            </p>
+            <div class="project-footer-row">
+              <div class="exp-tech-tags">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <span class="project-action-link">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 (Web Development) -->
+        <div class="project-card" data-category="web">
+          <div class="project-mockup-frame">
+            <div class="mockup-inner-window">
+              <div class="window-controls-dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="mockup-code-lines">
+                <div class="mockup-line" style="width:90%;"></div>
+                <div class="mockup-line" style="width:55%;"></div>
+                <div class="mockup-line" style="width:70%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content-body">
+            <div class="project-tagline">Modern Web Development</div>
+            <h3 class="project-title">DevVault Architecture Showcase</h3>
+            <p class="project-desc">
+              A responsive, Apple-inspired developer web showcase built with Laravel PHP, PostgreSQL, clean architecture, and zero-dependency fluid animations.
+            </p>
+            <div class="project-footer-row">
+              <div class="exp-tech-tags">
+                <span class="tech-tag">Laravel (PHP)</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">HTML5 / Modern CSS</span>
+              </div>
+              <span class="project-action-link">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Capabilities & Bento Architecture Grid
+       ======================================================================== -->
+  <section id="capabilities" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Skills & Architecture</span>
+        <h2 class="section-title">Capabilities.</h2>
+        <p class="section-subtitle">
+          A modern technical toolkit honed through computer science problem-solving and industry internships.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+
+        <!-- Bento 1: Backend & Core Languages (Span 2) -->
+        <div class="bento-card span-2">
+          <div class="bento-title">Backend Architecture & Core Languages</div>
+          <p class="bento-desc">
+            Robust server-side logic, MVC architecture, RESTful API design, and clean database integrations.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill">PHP</span>
+            <span class="skill-pill">Laravel Framework</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">RESTful APIs</span>
+            <span class="skill-pill">MVC Architecture</span>
+            <span class="skill-pill">Composer</span>
+          </div>
+        </div>
+
+        <!-- Bento 2: Frontend Engineering & Markup -->
+        <div class="bento-card">
+          <div class="bento-title">Frontend Craft & Styling</div>
+          <p class="bento-desc">
+            Pixel-perfect responsive design, modern layout systems, and clean styling standards.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill">HTML5 / Modern CSS</span>
+            <span class="skill-pill">Responsive Web Design</span>
+            <span class="skill-pill">JavaScript (Vanilla / ES6+)</span>
+            <span class="skill-pill">CSS Flexbox & Grid</span>
+            <span class="skill-pill">Cross-Browser Testing</span>
+          </div>
+        </div>
+
+        <!-- Bento 3: UI/UX & Design Systems -->
+        <div class="bento-card">
+          <div class="bento-title">UI/UX Design Systems</div>
+          <p class="bento-desc">
+            User-centric wireframing, high-fidelity interactive prototyping, and design component libraries.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill">Figma Prototyping</span>
+            <span class="skill-pill">Design Tokens & Systems</span>
+            <span class="skill-pill">Wireframing & User Flows</span>
+            <span class="skill-pill">Design-to-Code Handoff</span>
+          </div>
+        </div>
+
+        <!-- Bento 4: Database Management & IT Operations (Span 2) -->
+        <div class="bento-card span-2">
+          <div class="bento-title">Database Administration & IT Operations</div>
+          <p class="bento-desc">
+            Relational schema optimization, database management, version control, and system troubleshooting.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill">PostgreSQL Administration</span>
+            <span class="skill-pill">Query Optimization & Indexing</span>
+            <span class="skill-pill">Git & GitHub</span>
+            <span class="skill-pill">IT Support & Network Diagnostics</span>
+            <span class="skill-pill">AWS Fundamentals</span>
+            <span class="skill-pill">Laravel Herd & Local Dev</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Contact Section (Executive Connect Card)
+       ======================================================================== -->
+  <section id="contact" class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="contact-card-apple">
+        <div>
+          <span class="section-eyebrow">Direct Contact</span>
+          <h2 class="contact-info-title">Let's build something exceptional together.</h2>
+          <p class="contact-info-body">
+            Interested in discussing full-time software engineering roles, collaboration opportunities, or technical inquiries? Reach out directly.
+          </p>
+
+          <div class="contact-channels-list">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHQckWqdNfcwLTqbXNMWhJxqjrXVVwVnxQtFnDQMDNSgFsshPGxzbdlZNzSWBbrHDpqTvV" target="_blank" rel="noopener" class="channel-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>kevinadhitya6@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kevin-adhitya-1897b9236/?isSelfProfile=true" target="_blank" rel="noopener" class="channel-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              <span>LinkedIn: Kevin Adhitya</span>
+            </a>
+            <a href="https://github.com/kevinadhitya" target="_blank" rel="noopener" class="channel-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              <span>GitHub: kevinadhitya</span>
+            </a>
+            <div class="channel-item" style="color:var(--text-secondary);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Jakarta, Indonesia</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Message Form -->
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been received.'); this.reset();">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-input" placeholder="e.g. Hiring Manager / Recruiter" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Your Email</label>
+            <input type="email" class="form-input" placeholder="name@company.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Discuss opportunities, projects, or schedule an interview..." required></textarea>
+          </div>
+          <button type="submit" class="btn-apple-primary" style="margin-top:8px;">
+            <span>Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Apple-Style Multi-Column Footer
+       ======================================================================== -->
+  <footer class="apple-footer">
+    <div class="container">
+      <div class="footer-nav-grid">
+        <div>
+          <div class="footer-col-title">Overview</div>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#overview" class="footer-link">Company Profile</a></li>
+            <li><a href="#capabilities" class="footer-link">Core Pillars</a></li>
+            <li><a href="#contact" class="footer-link">Get in Touch</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Experience</div>
+          <ul class="footer-links-list">
+            <li><a href="#exp-darodata" class="footer-link">PT Darodata Teknologi</a></li>
+            <li><a href="#exp-lionair" class="footer-link">PT Lion Air Mentari</a></li>
+            <li><a href="#exp-sysnetsoft" class="footer-link">PT Sysnetsoft</a></li>
+            <li><a href="#experience" class="footer-link">Internship Highlights</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Education</div>
+          <ul class="footer-links-list">
+            <li><a href="#education" class="footer-link">Binus University</a></li>
+            <li><a href="#education" class="footer-link">Computer Science '24</a></li>
+            <li><a href="#education" class="footer-link">Curriculum & Focus</a></li>
+            <li><a href="#education" class="footer-link">3+1 Enrichment Track</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Engineering</div>
+          <ul class="footer-links-list">
+            <li><a href="#portfolio" class="footer-link">Fleet Operations Tool</a></li>
+            <li><a href="#portfolio" class="footer-link">DataStream Analytics</a></li>
+            <li><a href="#portfolio" class="footer-link">SysPulse ERP</a></li>
+            <li><a href="#capabilities" class="footer-link">Architecture Bento</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-legal-bar">
+        <div>
+          Copyright &copy; 2026 Kevin Adhitya. All rights reserved. Designed with Apple aesthetic standards.
+        </div>
+        <div style="display:flex; gap:16px;">
+          <span>Jakarta, Indonesia</span>
+          <span>Binus Alumni 2024</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Photo Uploader & Preview Modal
+       ======================================================================== -->
+  <div id="photoUploadModal" class="modal-overlay">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 class="modal-title">Profile Photo Manager</h3>
+        <button id="closePhotoModalBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:16px; line-height:1.5;">
+          You can preview your actual photos directly! Select which slot you want to update (Formal executive portrait or Casual studio portrait), then drag and drop or select your image.
+        </p>
+
+        <!-- Slot Radio Selection -->
+        <div style="display:flex; gap:16px; margin-bottom:18px;">
+          <label style="display:flex; align-items:center; gap:8px; font-size:0.875rem; cursor:pointer;">
+            <input type="radio" name="uploadTarget" value="formal" checked>
+            <span>Formal Executive Portrait</span>
+          </label>
+          <label style="display:flex; align-items:center; gap:8px; font-size:0.875rem; cursor:pointer;">
+            <input type="radio" name="uploadTarget" value="casual">
+            <span>Casual Developer Portrait</span>
+          </label>
+        </div>
+
+        <!-- Dropzone Box -->
+        <div id="photoDropzone" class="dropzone-box">
+          <svg class="dropzone-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <div class="dropzone-title">Click to choose or drop your photo here</div>
+          <div class="dropzone-desc">Supports JPG, PNG, WebP (Max 10MB)</div>
+          <input type="file" id="photoFileInput" accept="image/*" style="display:none;">
+        </div>
+
+        <div class="modal-info-note">
+          <strong>Tip:</strong> To save your photos permanently in this repository, you can simply save your files as:
+          <code style="font-family:var(--font-mono); color:var(--text-primary); display:block; margin-top:4px;">
+            assets/images/kevin-formal.jpg &nbsp;and&nbsp; assets/images/kevin-casual.jpg
+          </code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail Information Modal -->
+  <div id="detailInfoModal" class="modal-overlay">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div>
+          <h3 id="detailModalTitle" class="modal-title">System Preview</h3>
+          <div id="detailModalSub" style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em; margin-top:2px;"></div>
+        </div>
+        <button id="closeDetailModalBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div id="detailModalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

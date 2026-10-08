@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradCasual" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <radialGradient id="casualFace" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f4f4f5"/>
+      <stop offset="65%" stop-color="#a1a1aa"/>
+      <stop offset="100%" stop-color="#52525b"/>
+    </radialGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="600" height="700" fill="url(#bgGradCasual)" rx="24"/>
+
+  <!-- Tech Grid Accent Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="140" x2="600" y2="140"/>
+    <line x1="0" y1="280" x2="600" y2="280"/>
+    <line x1="0" y1="420" x2="600" y2="420"/>
+    <line x1="0" y1="560" x2="600" y2="560"/>
+    <line x1="150" y1="0" x2="150" y2="700"/>
+    <line x1="300" y1="0" x2="300" y2="700"/>
+    <line x1="450" y1="0" x2="450" y2="700"/>
+  </g>
+
+  <!-- Studio Halo -->
+  <circle cx="300" cy="280" r="230" fill="#38bdf8" opacity="0.06" filter="blur(50px)"/>
+
+  <!-- Casual Tech Hoodie / Crewneck Body -->
+  <path d="M 110 700 L 150 510 L 210 460 L 300 480 L 390 460 L 450 510 L 490 700 Z" fill="url(#hoodieGrad)"/>
+  
+  <!-- Hoodie details / crew neckline -->
+  <path d="M 230 465 Q 300 520 370 465 Q 300 490 230 465 Z" fill="#27272a"/>
+  <!-- Drawstrings -->
+  <line x1="270" y1="500" x2="265" y2="580" stroke="#71717a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="330" y1="500" x2="335" y2="580" stroke="#71717a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <path d="M 265 375 L 335 375 L 340 470 L 260 470 Z" fill="url(#casualFace)"/>
+
+  <!-- Head Silhouette -->
+  <ellipse cx="300" cy="275" rx="94" ry="120" fill="url(#casualFace)"/>
+
+  <!-- Relaxed Modern Hairstyle -->
+  <path d="M 200 260 C 190 170, 260 130, 310 130 C 370 130, 405 170, 400 240 C 390 190, 350 160, 305 160 C 235 160, 210 210, 200 260 Z" fill="#09090b"/>
+  <path d="M 205 240 Q 255 165 355 160 Q 400 175 400 220 Q 370 195 315 195 Q 235 195 205 240 Z" fill="#18181b"/>
+
+  <!-- Modern Headphones around neck -->
+  <path d="M 200 430 C 200 370, 400 370, 400 430" fill="none" stroke="#52525b" stroke-width="12" stroke-linecap="round"/>
+  <rect x="180" y="420" width="35" height="50" rx="12" fill="#27272a" stroke="#71717a" stroke-width="2"/>
+  <rect x="385" y="420" width="35" height="50" rx="12" fill="#27272a" stroke="#71717a" stroke-width="2"/>
+
+  <!-- Friendly smile -->
+  <path d="M 280 340 Q 300 360 320 340" fill="none" stroke="#27272a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Badge Watermark -->
+  <g transform="translate(40, 620)">
+    <rect width="180" height="38" rx="19" fill="#18181b" fill-opacity="0.9" stroke="#3f3f46" stroke-width="1"/>
+    <circle cx="20" cy="19" r="6" fill="#38bdf8"/>
+    <text x="36" y="24" fill="#f4f4f5" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">DEV &amp; CREATIVE</text>
+  </g>
+</svg>

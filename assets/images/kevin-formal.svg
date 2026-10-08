@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#0f0f11"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="faceGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e4e4e7"/>
+      <stop offset="60%" stop-color="#a1a1aa"/>
+      <stop offset="100%" stop-color="#52525b"/>
+    </radialGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#111113"/>
+    </linearGradient>
+    <linearGradient id="tieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="700" fill="url(#bgGrad)" rx="24"/>
+  <rect width="600" height="700" fill="url(#accentGlow)" rx="24"/>
+
+  <!-- Subtle Studio Halo -->
+  <circle cx="300" cy="280" r="220" fill="#ffffff" opacity="0.04" filter="blur(40px)"/>
+
+  <!-- Body / Blazer Suit (Formal) -->
+  <path d="M 120 700 L 160 520 L 220 450 L 300 480 L 380 450 L 440 520 L 480 700 Z" fill="url(#suitGrad)"/>
+  
+  <!-- Lapels -->
+  <path d="M 220 450 L 260 590 L 300 660 L 240 700 L 160 520 Z" fill="#1f1f23"/>
+  <path d="M 380 450 L 340 590 L 300 660 L 360 700 L 440 520 Z" fill="#18181b"/>
+
+  <!-- White Crisp Shirt Collar -->
+  <polygon points="260,440 300,530 275,540 245,460" fill="#ffffff"/>
+  <polygon points="340,440 300,530 325,540 355,460" fill="#f4f4f5"/>
+
+  <!-- Elegant Dark Tie -->
+  <polygon points="292,490 308,490 314,640 300,670 286,640" fill="url(#tieGrad)"/>
+  <polygon points="290,480 310,480 307,500 293,500" fill="#52525b"/>
+
+  <!-- Neck -->
+  <path d="M 265 370 L 335 370 L 340 460 L 260 460 Z" fill="url(#faceGrad)"/>
+  <path d="M 265 420 Q 300 450 335 420 L 335 440 L 265 440 Z" fill="#3f3f46" opacity="0.4"/>
+
+  <!-- Head / Face Silhouette -->
+  <ellipse cx="300" cy="280" rx="95" ry="120" fill="url(#faceGrad)"/>
+
+  <!-- Modern Haircut -->
+  <path d="M 205 260 C 200 180, 260 140, 310 140 C 370 140, 400 180, 395 240 C 390 200, 360 170, 305 170 C 245 170, 215 210, 205 260 Z" fill="#18181b"/>
+  <path d="M 210 240 Q 250 180 350 175 Q 395 190 395 230 Q 370 210 320 205 Q 240 205 210 240 Z" fill="#27272a"/>
+
+  <!-- Elegant Glasses Frame (Modern Sleek) -->
+  <rect x="235" y="260" width="50" height="32" rx="8" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+  <rect x="315" y="260" width="50" height="32" rx="8" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+  <line x1="285" y1="272" x2="315" y2="272" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+  <line x1="215" y1="268" x2="235" y2="272" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+  <line x1="365" y1="272" x2="385" y2="268" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+
+  <!-- Gentle Smile & Confident Features -->
+  <path d="M 282 345 Q 300 358 318 345" fill="none" stroke="#27272a" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Subtle Badge Watermark -->
+  <g transform="translate(40, 620)">
+    <rect width="180" height="38" rx="19" fill="#27272a" fill-opacity="0.85" stroke="#3f3f46" stroke-width="1"/>
+    <circle cx="20" cy="19" r="6" fill="#22c55e"/>
+    <text x="36" y="24" fill="#f4f4f5" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">EXECUTIVE PROFILE</text>
+  </g>
+</svg>
