@@ -22,6 +22,37 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!-- ========================================================================
+       Googlebook-Inspired Minimalist Splash Intro Gate
+       ======================================================================== -->
+  <aside id="splashIntroScreen" class="splash-intro-screen" aria-label="Introductory Screen">
+    <div class="splash-ambient-canvas">
+      <div class="splash-glow-orb splash-glow-1"></div>
+      <div class="splash-glow-orb splash-glow-2"></div>
+      <div class="splash-grid-texture"></div>
+    </div>
+    
+    <div class="splash-content-box">
+      <div class="splash-tagline">
+        <span class="splash-tagline-dot"></span>
+        <span>Computer Science • Binus University</span>
+      </div>
+
+      <h1 class="splash-title-name">Kevin Adhitya</h1>
+      <h2 class="splash-title-portfolio">Portofolio.</h2>
+
+      <div style="margin-top: 36px;">
+        <button id="btnDeepDive" class="splash-btn-deepdive" type="button" aria-label="Deep Dive into Kevin Adhitya Portfolio">
+          <span>Deep Dive</span>
+          <span class="splash-btn-arrow">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </aside>
 
   <!-- ========================================================================
        Apple-Style Global Navigation Bar
@@ -126,28 +157,43 @@
             <div class="tray-column-heading">Career Journey</div>
             <a href="#experience" class="tray-main-link">Explore All Experience</a>
             <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
-              Engineering roles across high-scale data systems, aviation software, and enterprise solutions.
+              Hands-on enterprise internships spanning modern web UI/UX, cloud integration, network reliability, and airline data operations.
             </p>
           </div>
           <div>
             <div class="tray-column-heading">Enterprise Organizations</div>
             <ul class="tray-links-list">
               <li>
+                <a href="#exp-sysnetsoft" class="tray-sub-link">
+                  <div class="tray-sub-icon tray-icon-sysnetsoft">
+                    <img src="assets/images/Sysnetsoft-only.png" alt="PT Sysnetsoft">
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">PT Sysnetsoft</div>
+                    <div class="tray-sub-desc">Web Developer Intern • UI/UX & AWS Cloud (June '25 – Sept '25)</div>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a href="#exp-darodata" class="tray-sub-link">
-                  <div class="tray-sub-title">PT Darodata Teknologi</div>
-                  <div class="tray-sub-desc">Software Engineer Intern • Data Systems</div>
+                  <div class="tray-sub-icon tray-icon-darodata">
+                    <img src="assets/images/Darodata-Logo-New.png" alt="PT Darodata Teknologi">
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">PT Darodata Teknologi</div>
+                    <div class="tray-sub-desc">IT Support Intern • Web Maintenance & Network (Feb '23 – Feb '24)</div>
+                  </div>
                 </a>
               </li>
               <li>
                 <a href="#exp-lionair" class="tray-sub-link">
-                  <div class="tray-sub-title">PT Lion Air Mentari</div>
-                  <div class="tray-sub-desc">IT Systems Intern • Fleet & Operations</div>
-                </a>
-              </li>
-              <li>
-                <a href="#exp-sysnetsoft" class="tray-sub-link">
-                  <div class="tray-sub-title">PT Sysnetsoft</div>
-                  <div class="tray-sub-desc">Software Development Intern • Enterprise Apps</div>
+                  <div class="tray-sub-icon tray-icon-lionair">
+                    <img src="assets/images/Lion_Air-Logo.wine.png" alt="PT Lion Air Mentari">
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">PT Lion Air Mentari</div>
+                    <div class="tray-sub-desc">Data Analyst & UI Designer Intern • APB Mobile (Feb '23 – May '24)</div>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -157,8 +203,19 @@
             <div class="tray-featured-card">
               <div>
                 <span class="tray-card-badge">Industry Impact</span>
-                <div class="tray-card-title">Cross-Industry Agility</div>
-                <div class="tray-card-desc">From mission-critical aviation operations to big data pipelines and scalable client architectures.</div>
+                <div class="tray-card-preview-bar">
+                  <div class="tray-preview-logo-pill" style="background:#003b8e;" title="PT Sysnetsoft">
+                    <img src="assets/images/Sysnetsoft-only.png" alt="PT Sysnetsoft">
+                  </div>
+                  <div class="tray-preview-logo-pill" style="background:#ffffff;" title="PT Darodata Teknologi">
+                    <img src="assets/images/Darodata-Logo-New.png" alt="PT Darodata Teknologi">
+                  </div>
+                  <div class="tray-preview-logo-pill" style="background:#ffffff;" title="PT Lion Air Mentari">
+                    <img src="assets/images/Lion_Air-Logo.wine.png" alt="PT Lion Air Mentari">
+                  </div>
+                </div>
+                <div class="tray-card-title">Enterprise Internships</div>
+                <div class="tray-card-desc">Practical impact across web development with Figma & AWS, high-reliability web systems (ibank.co.id), and commercial aviation mobile workflows.</div>
               </div>
               <a href="#experience" class="tray-card-action">
                 <span>View Full Timeline</span>
@@ -174,7 +231,7 @@
             <div class="tray-column-heading">Alma Mater</div>
             <a href="#education" class="tray-main-link">Binus University</a>
             <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
-              Graduated Class of 2024 with a Bachelor of Computer Science (Sarjana Komputer).
+              Graduated Class of 2024 with a Bachelor of Computer Science (Sarjana Komputer — S.Kom).
             </p>
           </div>
           <div>
@@ -182,20 +239,35 @@
             <ul class="tray-links-list">
               <li>
                 <a href="#education" class="tray-sub-link">
-                  <div class="tray-sub-title">Computer Science Degree</div>
-                  <div class="tray-sub-desc">Algorithms, Data Structures & System Architecture</div>
+                  <div class="tray-sub-icon" style="background:var(--badge-bg); color:var(--text-primary);">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">Bachelor of Computer Science</div>
+                    <div class="tray-sub-desc">Sarjana Komputer (S.Kom) • Bina Nusantara University</div>
+                  </div>
                 </a>
               </li>
               <li>
                 <a href="#education" class="tray-sub-link">
-                  <div class="tray-sub-title">Binus 3+1 Program</div>
-                  <div class="tray-sub-desc">Industry Immersion & Hands-on Enterprise Projects</div>
+                  <div class="tray-sub-icon" style="background:var(--badge-bg); color:var(--text-primary);">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">AI Implementation & UI Design</div>
+                    <div class="tray-sub-desc">Intelligent AI integration, modern Figma workflows & interface engineering</div>
+                  </div>
                 </a>
               </li>
               <li>
                 <a href="#education" class="tray-sub-link">
-                  <div class="tray-sub-title">Capstone Research</div>
-                  <div class="tray-sub-desc">Software Engineering & Distributed Systems Design</div>
+                  <div class="tray-sub-icon" style="background:var(--badge-bg); color:var(--text-primary);">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </div>
+                  <div>
+                    <div class="tray-sub-title">Algorithmic Problem Solving</div>
+                    <div class="tray-sub-desc">Data structures, network architectures & software engineering lifecycles</div>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -205,8 +277,17 @@
             <div class="tray-featured-card">
               <div>
                 <span class="tray-card-badge">Binusian 2024</span>
+                <div class="tray-card-preview-bar">
+                  <div class="tray-preview-logo-pill" style="background:#ffffff; width:38px; height:38px;" title="Binus University Graduate">
+                    <img src="assets/images/kevin-binus.png" alt="Kevin Adhitya - Binus University" style="object-fit:cover; border-radius:6px; width:100%; height:100%;">
+                  </div>
+                  <div style="font-size:0.75rem; font-weight:600; color:var(--text-secondary); line-height:1.2;">
+                    <div>S.Kom Credential</div>
+                    <div style="font-size:0.68rem; color:var(--text-muted);">Computer Science</div>
+                  </div>
+                </div>
                 <div class="tray-card-title">Computer Science Excellence</div>
-                <div class="tray-card-desc">Solid theoretical foundation complemented by practical real-world engineering standards.</div>
+                <div class="tray-card-desc">Bridging rigorous theoretical foundations in computer science with modern engineering excellence across AI systems, user-centric interfaces, and reliable infrastructure.</div>
               </div>
               <a href="#education" class="tray-card-action">
                 <span>Read Education Story</span>
@@ -229,21 +310,15 @@
             <div class="tray-column-heading">Categories</div>
             <ul class="tray-links-list">
               <li>
-                <a href="#portfolio" class="tray-sub-link">
-                  <div class="tray-sub-title">Enterprise Systems</div>
-                  <div class="tray-sub-desc">Aviation flight dispatch, ERP tooling & dashboards</div>
+                <a href="#portfolio" class="tray-sub-link" data-portfolio-filter="design">
+                  <div class="tray-sub-title">UI/UX Design</div>
+                  <div class="tray-sub-desc">Figma design systems & AR experiences</div>
                 </a>
               </li>
               <li>
-                <a href="#portfolio" class="tray-sub-link">
-                  <div class="tray-sub-title">Data & Cloud Platforms</div>
-                  <div class="tray-sub-desc">High-throughput ingestion pipelines & APIs</div>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" class="tray-sub-link">
-                  <div class="tray-sub-title">Web Applications</div>
-                  <div class="tray-sub-desc">Interactive, responsive user interfaces</div>
+                <a href="#portfolio" class="tray-sub-link" data-portfolio-filter="web">
+                  <div class="tray-sub-title">Web Development</div>
+                  <div class="tray-sub-desc">Laravel, Inertia, Vue 3 & AI portals</div>
                 </a>
               </li>
             </ul>
@@ -268,9 +343,9 @@
         <div id="trayCapabilities" class="tray-panel">
           <div>
             <div class="tray-column-heading">Technical Arsenal</div>
-            <a href="#capabilities" class="tray-main-link">Engineering Stack</a>
+            <a href="#capabilities" class="tray-main-link">Verified Capabilities</a>
             <p style="font-size:0.775rem; color:var(--text-secondary); margin-top:8px; line-height:1.4;">
-              Modern programming languages, backend frameworks, relational databases, and devops tooling.
+              Full-stack backend frameworks, reactive modern frontends, enterprise database operations, UI/UX systems, and cloud infrastructure.
             </p>
           </div>
           <div>
@@ -278,34 +353,34 @@
             <ul class="tray-links-list">
               <li>
                 <a href="#capabilities" class="tray-sub-link">
-                  <div class="tray-sub-title">Full-Stack Development</div>
-                  <div class="tray-sub-desc">TypeScript, React, Node.js, PHP, Laravel</div>
+                  <div class="tray-sub-title">Full-Stack & Laravel Ecosystem</div>
+                  <div class="tray-sub-desc">PHP 8.2+, Laravel 11, Inertia.js, Vue 3, REST APIs</div>
                 </a>
               </li>
               <li>
                 <a href="#capabilities" class="tray-sub-link">
-                  <div class="tray-sub-title">Data & Systems</div>
-                  <div class="tray-sub-desc">Python, PostgreSQL, MySQL, REST & GraphQL</div>
+                  <div class="tray-sub-title">Databases & IT Infrastructure</div>
+                  <div class="tray-sub-desc">PostgreSQL, MySQL, AWS Cloud, Network & Diagnostics</div>
                 </a>
               </li>
               <li>
                 <a href="#capabilities" class="tray-sub-link">
-                  <div class="tray-sub-title">DevOps & Tooling</div>
-                  <div class="tray-sub-desc">Docker, Git, CI/CD, Linux Systems</div>
+                  <div class="tray-sub-title">UI/UX & AR Creative Tech</div>
+                  <div class="tray-sub-desc">Figma Design Systems, Snap Lens Studio 3D, Web UI</div>
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <div class="tray-column-heading">Standards</div>
+            <div class="tray-column-heading">Applied Standards</div>
             <div class="tray-featured-card">
               <div>
-                <span class="tray-card-badge">Best Practices</span>
-                <div class="tray-card-title">Clean Architecture</div>
-                <div class="tray-card-desc">Emphasis on maintainability, modularity, readable code, and responsive interface design.</div>
+                <span class="tray-card-badge">Production Architecture</span>
+                <div class="tray-card-title">Clean Architecture & Modularity</div>
+                <div class="tray-card-desc">Robust MVC patterns, Google OAuth API integrations, automated AI parsing, and timezone-aware state engines built for real-world reliability.</div>
               </div>
               <a href="#capabilities" class="tray-card-action">
-                <span>View Bento Grid</span>
+                <span>Inspect Bento Grid</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
             </div>
@@ -400,7 +475,7 @@
             <div class="profile-badge-overlay">
               <div>
                 <div id="profileBadgeName" class="overlay-info-name">Kevin Adhitya, S.Kom</div>
-                <div id="profileBadgeRole" class="overlay-info-sub">UI/UX Designer & IT Support • Binus CS</div>
+                <div id="profileBadgeRole" class="overlay-info-sub">Web Developer & AI Implementation Engineer</div>
               </div>
               <div class="overlay-status-pill">
                 <span class="status-indicator-dot"></span>
@@ -982,7 +1057,6 @@
       <!-- Category Filter Buttons -->
       <div class="portfolio-filter-row">
         <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="enterprise">Enterprise Systems</button>
         <button class="filter-btn" data-filter="design">UI/UX Design</button>
         <button class="filter-btn" data-filter="web">Web Development</button>
       </div>
@@ -990,34 +1064,35 @@
       <!-- Projects Grid -->
       <div class="projects-grid">
 
-        <!-- Project 1 -->
-        <div class="project-card" data-category="enterprise">
-          <div class="project-mockup-frame">
-            <div class="mockup-inner-window">
-              <div class="window-controls-dots">
-                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-              </div>
-              <div class="mockup-code-lines">
-                <div class="mockup-line" style="width:60%;"></div>
-                <div class="mockup-line" style="width:85%;"></div>
-                <div class="mockup-line" style="width:40%;"></div>
-              </div>
+        <!-- Project 1 (Full-Stack Web App) -->
+        <div class="project-card project-card-chronomap" data-category="web" data-project-id="chronomap-scheduler">
+          <div class="project-mockup-frame project-mockup-chronomap">
+            <div class="chronomap-card-badge-floating">
+              <span class="chronomap-card-stack-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Laravel 11 • Inertia • Vue 3</span>
+              </span>
+              <span class="chronomap-status-pill">Full-Stack App</span>
             </div>
+            <img src="assets/images/chronomap-dashboard.png" alt="ChronoMap Multi-Timezone Scheduler Web Platform" class="chronomap-card-cover-img">
+            <div class="chronomap-card-overlay-gradient"></div>
           </div>
           <div class="project-content-body">
-            <div class="project-tagline">Aviation & Operations System</div>
-            <h3 class="project-title">AeroOps Fleet Dispatch Engine</h3>
+            <div class="project-tagline">Full-Stack Web Application • Herd & PostgreSQL</div>
+            <h3 class="project-title">ChronoMap — Multi-Timezone Appointment Scheduler</h3>
             <p class="project-desc">
-              A flight operations and crew scheduling platform inspired by commercial airline dispatch challenges. Features real-time status trackers, delay prediction alerts, and crew assignment matrix.
+              A modern full-stack scheduling web platform engineered with <strong>Laravel 11</strong>, <strong>Inertia.js</strong>, and <strong>Vue 3</strong>. Solves global remote meeting frictions through automated timezone conversions, live clocks, invitee response workflows, and real-time conflict prevention.
             </p>
             <div class="project-footer-row">
               <div class="exp-tech-tags">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Laravel 11</span>
+                <span class="tech-tag">Inertia.js</span>
+                <span class="tech-tag">Vue 3</span>
+                <span class="tech-tag">Tailwind CSS</span>
                 <span class="tech-tag">PostgreSQL</span>
               </div>
               <span class="project-action-link">
-                <span>View Specs</span>
+                <span>Explore Case Study</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </div>
@@ -1025,102 +1100,103 @@
         </div>
 
         <!-- Project 2 (UI/UX Design) -->
-        <div class="project-card" data-category="design">
-          <div class="project-mockup-frame">
-            <div class="mockup-inner-window">
-              <div class="window-controls-dots">
-                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-              </div>
-              <div class="mockup-code-lines">
-                <div class="mockup-line" style="width:75%;"></div>
-                <div class="mockup-line" style="width:45%;"></div>
-                <div class="mockup-line" style="width:90%;"></div>
-              </div>
+        <div class="project-card project-card-apb" data-category="design" data-project-id="apb-lionair">
+          <div class="project-mockup-frame project-mockup-apb">
+            <div class="apb-card-badge-floating">
+              <span class="apb-card-lion-pill">
+                <img src="assets/images/Lion_Air-Logo.wine.png" alt="Lion Air">
+                <span>Lion Air Mentari</span>
+              </span>
+              <span class="apb-figma-pill">Figma UI/UX</span>
             </div>
+            <img src="assets/images/lionair-apb-mockup.png" alt="APB Mobile App Design System Lion Air" class="apb-card-cover-img">
+            <div class="apb-card-overlay-gradient"></div>
           </div>
           <div class="project-content-body">
-            <div class="project-tagline">UI/UX Design & Prototyping</div>
+            <div class="project-tagline">Commercial Aviation UI/UX • PT Lion Air Mentari</div>
             <h3 class="project-title">APB Mobile App Design System</h3>
             <p class="project-desc">
-              High-fidelity mobile UI prototype designed with Figma for commercial passenger-on-board workflows. Crafted with streamlined user paths, high contrast for field mobility, and unified design components.
+              High-fidelity mobile design system crafted with <strong>Figma</strong> to empower flight attendants (cabin crew) and gatekeepers with fast, accurate, and real-time actual passenger on board (APB) headcount verification prior to aircraft pushback.
             </p>
             <div class="project-footer-row">
               <div class="exp-tech-tags">
                 <span class="tech-tag">Figma</span>
                 <span class="tech-tag">Design System</span>
                 <span class="tech-tag">Mobile UI</span>
-                <span class="tech-tag">User Flow</span>
+                <span class="tech-tag">Passenger On Board</span>
               </div>
               <span class="project-action-link">
-                <span>View Specs</span>
+                <span>Explore Case Study</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </div>
           </div>
         </div>
 
-        <!-- Project 3 -->
-        <div class="project-card" data-category="enterprise">
-          <div class="project-mockup-frame">
-            <div class="mockup-inner-window">
-              <div class="window-controls-dots">
-                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-              </div>
-              <div class="mockup-code-lines">
-                <div class="mockup-line" style="width:50%;"></div>
-                <div class="mockup-line" style="width:80%;"></div>
-                <div class="mockup-line" style="width:65%;"></div>
-              </div>
+        <!-- Project 3 (AI & Full-Stack Platform) -->
+        <div class="project-card project-card-lokerja" data-category="web" data-project-id="lokerja-tracker">
+          <div class="project-mockup-frame project-mockup-lokerja">
+            <div class="lokerja-card-badge-floating">
+              <span class="lokerja-card-stack-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                <span>Google OAuth • AI CV Parser</span>
+              </span>
+              <span class="lokerja-status-pill">Active Platform</span>
             </div>
+            <img src="assets/images/lokerja-login.png" alt="Lokerja Job Application Workspace & AI CV Parser" class="lokerja-card-cover-img">
+            <div class="lokerja-card-overlay-gradient"></div>
           </div>
           <div class="project-content-body">
-            <div class="project-tagline">Enterprise ERP & Workflow</div>
-            <h3 class="project-title">SysPulse Business Portal</h3>
+            <div class="project-tagline">AI-Powered Career Platform • Laravel Herd & PostgreSQL</div>
+            <h3 class="project-title">Lokerja — Smart Job Tracker & AI CV Parser</h3>
             <p class="project-desc">
-              Multi-tenant enterprise suite incorporating inventory tracking, automated billing, role-based access control (RBAC), and audited reporting dashboards.
+              A comprehensive career management workspace featuring <strong>Google OAuth API</strong> authentication, intelligent <strong>AI CV extraction</strong> for automated profile onboarding, and an interactive 12-month activity heatmap dashboard tracking interview pipelines.
             </p>
             <div class="project-footer-row">
               <div class="exp-tech-tags">
-                <span class="tech-tag">TypeScript</span>
                 <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Google OAuth API</span>
+                <span class="tech-tag">AI CV Parser</span>
                 <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Tailwind CSS</span>
               </div>
               <span class="project-action-link">
-                <span>View Specs</span>
+                <span>Explore Case Study</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </div>
           </div>
         </div>
 
-        <!-- Project 4 (Web Development) -->
-        <div class="project-card" data-category="web">
-          <div class="project-mockup-frame">
-            <div class="mockup-inner-window">
-              <div class="window-controls-dots">
-                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-              </div>
-              <div class="mockup-code-lines">
-                <div class="mockup-line" style="width:90%;"></div>
-                <div class="mockup-line" style="width:55%;"></div>
-                <div class="mockup-line" style="width:70%;"></div>
-              </div>
+        <!-- Project 4 (AR Creative Tech & Analytics) -->
+        <div class="project-card project-card-snapchat" data-category="design" data-project-id="snapchat-ar">
+          <div class="project-mockup-frame project-mockup-snapchat">
+            <div class="snapchat-card-badge-floating">
+              <span class="snapchat-card-stack-pill">
+                <img src="assets/images/Snapchat-Logo.png" alt="Snapchat Inc">
+                <span>Lens Studio • AR Filter</span>
+              </span>
+              <span class="snapchat-status-pill">740k+ Reach</span>
             </div>
+            <img src="assets/images/snapchat-lens-studio.png" alt="Snapchat Lens Studio Canvas & 3D Face Tracking" class="snapchat-card-cover-img">
+            <div class="snapchat-card-overlay-gradient"></div>
           </div>
           <div class="project-content-body">
-            <div class="project-tagline">Modern Web Development</div>
-            <h3 class="project-title">DevVault Architecture Showcase</h3>
+            <div class="project-tagline">Augmented Reality & Creator Analytics • BUBU Snapchat Inc.</div>
+            <h3 class="project-title">Snapchat AR Lens Studio & Audience Insights</h3>
             <p class="project-desc">
-              A responsive, Apple-inspired developer web showcase built with Laravel PHP, PostgreSQL, clean architecture, and zero-dependency fluid animations.
+              Custom interactive Augmented Reality lenses developed with <strong>Lens Studio</strong>, featuring 3D face mesh transformations, published to global public profiles, and monitored via <strong>Lens Insights</strong> with over <strong>740,000+ total plays and views</strong>.
             </p>
             <div class="project-footer-row">
               <div class="exp-tech-tags">
-                <span class="tech-tag">Laravel (PHP)</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">HTML5 / Modern CSS</span>
+                <span class="tech-tag">Lens Studio</span>
+                <span class="tech-tag">Augmented Reality (AR)</span>
+                <span class="tech-tag">Lens Insights</span>
+                <span class="tech-tag">3D Face Tracking</span>
+                <span class="tech-tag">Audience Analytics</span>
               </div>
               <span class="project-action-link">
-                <span>View Specs</span>
+                <span>Explore Case Study</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </div>
@@ -1146,65 +1222,121 @@
 
       <div class="bento-grid">
 
-        <!-- Bento 1: Backend & Core Languages (Span 2) -->
+        <!-- Bento 1: Full-Stack PHP & Laravel Framework (Span 2) -->
         <div class="bento-card span-2">
-          <div class="bento-title">Backend Architecture & Core Languages</div>
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Backend & Framework Architecture</span>
+            <span class="bento-status-chip">Production Ready</span>
+          </div>
+          <div class="bento-title">Modern PHP & Laravel Ecosystem</div>
           <p class="bento-desc">
-            Robust server-side logic, MVC architecture, RESTful API design, and clean database integrations.
+            Production-grade server-side engineering specializing in <strong>Laravel 11</strong> and <strong>PHP 8.2+</strong>. Architected MVC patterns, Eloquent ORM relations, multi-timezone session state management (ChronoMap), and secure authentication pipelines including <strong>Google OAuth API</strong> and automated <strong>AI CV extraction</strong> (Lokerja).
           </p>
           <div class="skills-pill-group">
-            <span class="skill-pill">PHP</span>
-            <span class="skill-pill">Laravel Framework</span>
-            <span class="skill-pill">PostgreSQL</span>
-            <span class="skill-pill">MySQL</span>
-            <span class="skill-pill">RESTful APIs</span>
+            <span class="skill-pill"><strong>PHP 8.2+</strong></span>
+            <span class="skill-pill"><strong>Laravel 11</strong></span>
             <span class="skill-pill">MVC Architecture</span>
+            <span class="skill-pill">RESTful API Design</span>
+            <span class="skill-pill">Google OAuth 2.0 API</span>
+            <span class="skill-pill">AI CV Parsing Engine</span>
+            <span class="skill-pill">Timezone Offset Engine</span>
+            <span class="skill-pill">Inertia.js SSR / Hydration</span>
             <span class="skill-pill">Composer</span>
+            <span class="skill-pill">Laravel Herd</span>
           </div>
         </div>
 
-        <!-- Bento 2: Frontend Engineering & Markup -->
+        <!-- Bento 2: Relational Databases & Data Engineering (Span 1) -->
         <div class="bento-card">
-          <div class="bento-title">Frontend Craft & Styling</div>
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Data & Storage</span>
+          </div>
+          <div class="bento-title">Databases & Data Integrity</div>
           <p class="bento-desc">
-            Pixel-perfect responsive design, modern layout systems, and clean styling standards.
+            Structured relational database design, query optimization, and dataset normalization honed through real airline passenger datasets at Lion Air Mentari and application backends.
           </p>
           <div class="skills-pill-group">
-            <span class="skill-pill">HTML5 / Modern CSS</span>
-            <span class="skill-pill">Responsive Web Design</span>
-            <span class="skill-pill">JavaScript (Vanilla / ES6+)</span>
-            <span class="skill-pill">CSS Flexbox & Grid</span>
-            <span class="skill-pill">Cross-Browser Testing</span>
+            <span class="skill-pill"><strong>PostgreSQL</strong></span>
+            <span class="skill-pill"><strong>MySQL</strong></span>
+            <span class="skill-pill">Schema Migrations</span>
+            <span class="skill-pill">Data Normalization</span>
+            <span class="skill-pill">Complex Joins & Indexing</span>
+            <span class="skill-pill">Excel & Data Cleaning</span>
           </div>
         </div>
 
-        <!-- Bento 3: UI/UX & Design Systems -->
+        <!-- Bento 3: Frontend Engineering & Modern UI (Span 1) -->
         <div class="bento-card">
-          <div class="bento-title">UI/UX Design Systems</div>
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Frontend Interfaces</span>
+          </div>
+          <div class="bento-title">Reactive Frontend & Styling</div>
           <p class="bento-desc">
-            User-centric wireframing, high-fidelity interactive prototyping, and design component libraries.
+            Single-page reactivity and responsive modern interfaces with zero layout shift, modern CSS standards, and reactive component hierarchies.
           </p>
           <div class="skills-pill-group">
-            <span class="skill-pill">Figma Prototyping</span>
-            <span class="skill-pill">Design Tokens & Systems</span>
-            <span class="skill-pill">Wireframing & User Flows</span>
+            <span class="skill-pill"><strong>Vue.js 3 (Composition API)</strong></span>
+            <span class="skill-pill"><strong>Tailwind CSS</strong></span>
+            <span class="skill-pill">JavaScript (ES6+)</span>
+            <span class="skill-pill">HTML5 & Semantic SEO</span>
+            <span class="skill-pill">CSS Flexbox / Grid / Glassmorphism</span>
+            <span class="skill-pill">Vite & Asset Bundling</span>
+          </div>
+        </div>
+
+        <!-- Bento 4: UI/UX Design Systems & Aviation Prototyping (Span 1) -->
+        <div class="bento-card">
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Product & UI/UX</span>
+          </div>
+          <div class="bento-title">Figma UI/UX & Design Systems</div>
+          <p class="bento-desc">
+            Enterprise design systems, interactive prototypes, and ergonomic mobile workflows designed for high-pressure operations like Lion Air APB and school administrative portals at PT Sysnetsoft.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill"><strong>Figma Prototyping</strong></span>
+            <span class="skill-pill">Design Systems & Tokens</span>
+            <span class="skill-pill">User Journey Mapping</span>
+            <span class="skill-pill">Mobile Usability (APB App)</span>
             <span class="skill-pill">Design-to-Code Handoff</span>
           </div>
         </div>
 
-        <!-- Bento 4: Database Management & IT Operations (Span 2) -->
-        <div class="bento-card span-2">
-          <div class="bento-title">Database Administration & IT Operations</div>
+        <!-- Bento 5: Cloud Integration & IT Systems Reliability (Span 1) -->
+        <div class="bento-card">
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Cloud & Operations</span>
+          </div>
+          <div class="bento-title">Cloud Storage & IT Diagnostics</div>
           <p class="bento-desc">
-            Relational schema optimization, database management, version control, and system troubleshooting.
+            Hands-on enterprise systems maintenance, web performance optimization (ibank.co.id at PT Darodata), network troubleshooting, and automated cloud upload pipelines on AWS.
           </p>
           <div class="skills-pill-group">
-            <span class="skill-pill">PostgreSQL Administration</span>
-            <span class="skill-pill">Query Optimization & Indexing</span>
-            <span class="skill-pill">Git & GitHub</span>
-            <span class="skill-pill">IT Support & Network Diagnostics</span>
-            <span class="skill-pill">AWS Fundamentals</span>
-            <span class="skill-pill">Laravel Herd & Local Dev</span>
+            <span class="skill-pill"><strong>AWS Cloud Storage</strong></span>
+            <span class="skill-pill">Web Uptime Management</span>
+            <span class="skill-pill">Network Diagnostics</span>
+            <span class="skill-pill">Hardware & OS Troubleshooting</span>
+            <span class="skill-pill">Git / GitHub Versioning</span>
+          </div>
+        </div>
+
+        <!-- Bento 6: Augmented Reality & Creator Tech (Span 3 / Full Width) -->
+        <div class="bento-card span-3">
+          <div class="bento-header-badge">
+            <span class="bento-eyebrow-chip">Augmented Reality & Creator Tech</span>
+            <span class="bento-status-chip highlight">740k+ Audience Reach</span>
+          </div>
+          <div class="bento-title">Snap Lens Studio AR & Audience Analytics</div>
+          <p class="bento-desc">
+            End-to-end interactive AR filter authoring as official Campus Ambassador for BUBU Snapchat Inc. Built real-time 3D facial mesh transformations and tracking shaders, managed Snap global moderation pipelines, and evaluated performance via Lens Insights.
+          </p>
+          <div class="skills-pill-group">
+            <span class="skill-pill"><strong>Snap Lens Studio</strong></span>
+            <span class="skill-pill">3D Facial Mesh Deformation</span>
+            <span class="skill-pill">Real-Time Face Smoothing Shaders</span>
+            <span class="skill-pill">AR Lens Moderation & Publishing</span>
+            <span class="skill-pill">Lens Insights UTC Metrics</span>
+            <span class="skill-pill">Interactive 3D Viewport Simulation</span>
           </div>
         </div>
 
@@ -1246,23 +1378,45 @@
         </div>
 
         <!-- Quick Message Form -->
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been received.'); this.reset();">
+        <form id="directContactForm" class="contact-form">
           <div class="form-group">
-            <label class="form-label">Your Name</label>
-            <input type="text" class="form-input" placeholder="e.g. Hiring Manager / Recruiter" required>
+            <label class="form-label" for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" class="form-input" placeholder="e.g. Job Opportunity / Project Collaboration / Inquiry" required>
           </div>
           <div class="form-group">
-            <label class="form-label">Your Email</label>
-            <input type="email" class="form-input" placeholder="name@company.com" required>
+            <label class="form-label" for="contactEmail">Your Email</label>
+            <input type="email" id="contactEmail" class="form-input" placeholder="name@company.com" required>
           </div>
           <div class="form-group">
-            <label class="form-label">Message</label>
-            <textarea class="form-textarea" placeholder="Discuss opportunities, projects, or schedule an interview..." required></textarea>
+            <label class="form-label" for="contactMessage">Message</label>
+            <textarea id="contactMessage" class="form-textarea" placeholder="Discuss opportunities, projects, or schedule an interview..." required></textarea>
           </div>
-          <button type="submit" class="btn-apple-primary" style="margin-top:8px;">
+          <button type="submit" class="btn-apple-primary">
             <span>Send Message</span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
           </button>
+
+          <!-- Aesthetic Website Order & Commission Banner Card -->
+          <div class="order-website-card" id="btnOrderWebsite" role="button" tabindex="0" title="Click to auto-fill project commission template">
+            <div class="order-card-glow"></div>
+            <div class="order-card-left">
+              <div class="order-card-icon-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div>
+                <div class="order-card-title">Looking for a Custom Website?</div>
+                <div class="order-card-subtitle">Commission bespoke web apps, landing pages & UI/UX designs</div>
+              </div>
+            </div>
+            <div class="order-card-action">
+              <span>Order Website Instead</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
         </form>
       </div>
     </div>
@@ -1374,13 +1528,13 @@
 
   <!-- Detail Information Modal -->
   <div id="detailInfoModal" class="modal-overlay">
-    <div class="modal-window">
+    <div id="detailModalWindow" class="modal-window">
       <div class="modal-header">
         <div>
           <h3 id="detailModalTitle" class="modal-title">System Preview</h3>
           <div id="detailModalSub" style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em; margin-top:2px;"></div>
         </div>
-        <button id="closeDetailModalBtn" class="modal-close-btn">&times;</button>
+        <button id="closeDetailModalBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
       </div>
       <div id="detailModalBody" class="modal-body"></div>
     </div>
